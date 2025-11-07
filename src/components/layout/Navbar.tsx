@@ -48,7 +48,7 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="/contact"
+              href="/estimate-my-work"
               className="bg-[#F22542] hover:bg-[#F22542]/80 text-white px-8 py-4 rounded-tr-3xl rounded-bl-3xl text-sm font-medium transition-colors duration-200"
             >
               Estimate My Work
