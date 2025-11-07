@@ -28,7 +28,7 @@ const AboutBannerAndTitle = () => {
           height={9797600}
           className="w-full h-[700px] rounded-bl-[200px] object-cover"
         />
-        <div className="absolute -bottom-28 rounded-t-3xl bg-white p-10 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl font-semibold">
+        <div className="absolute -bottom-28 rounded-t-3xl bg-white py-10 px-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl font-semibold">
           <h1>About Us</h1>
         </div>
       </div>
