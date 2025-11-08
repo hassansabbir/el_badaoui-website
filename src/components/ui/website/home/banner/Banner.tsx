@@ -3,8 +3,22 @@ import Container from "@/components/layout/Container";
 
 const Banner = () => {
   return (
-    <section className="bg-black text-white min-h-[calc(100vh-180px)]">
-      <Container className="py-24 sm:py-32">
+    <section className="relative min-h-[calc(100vh-150px)] overflow-hidden">
+      {/* Background video */}
+      <video
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src="/el_badaouiBannerVid.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/70" />
+
+      <Container className="relative py-24 sm:py-32 text-white">
         <div className="max-w-3xl">
           <h1 className="text-4xl sm:text-5xl font-semibold tracking-tight leading-tight">
             Building Excellence, Designing

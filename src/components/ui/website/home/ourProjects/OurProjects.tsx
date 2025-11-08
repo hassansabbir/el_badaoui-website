@@ -42,7 +42,7 @@ const OurProjects = () => {
                   alt="Project 1"
                   width={500}
                   height={500}
-                  className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+                  className="w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px]"
                 />
               </div>
             </div>
@@ -53,7 +53,7 @@ const OurProjects = () => {
                   alt="Project 1"
                   width={500}
                   height={500}
-                  className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+                  className="w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px]"
                 />
               </div>
               <div className="w-[50%]">
@@ -106,7 +106,7 @@ const OurProjects = () => {
                   alt="Project 1"
                   width={500}
                   height={500}
-                  className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+                  className="w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px]"
                 />
               </div>
             </div>
@@ -117,7 +117,7 @@ const OurProjects = () => {
                   alt="Project 1"
                   width={500}
                   height={500}
-                  className="w-full h-full object-cover rounded-tl-3xl rounded-br-3xl"
+                  className="w-full h-full object-cover rounded-tl-[100px] rounded-br-[100px]"
                 />
               </div>
               <div className="w-[50%]">
