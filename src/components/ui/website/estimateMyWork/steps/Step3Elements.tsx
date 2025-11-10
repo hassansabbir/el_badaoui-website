@@ -28,10 +28,6 @@ const Step3Elements: React.FC<Props> = ({
   setProjectName,
   rooms,
   roomCounts,
-  pieceName,
-  setPieceName,
-  floorArea,
-  setFloorArea,
 }) => {
   const selectedRooms = React.useMemo(() => {
     return rooms.filter((r) => (roomCounts[r.id] ?? 0) > 0);
@@ -75,7 +71,9 @@ const Step3Elements: React.FC<Props> = ({
           </h3>
           <div className="mt-2 flex flex-col gap-3">
             {selectedRooms.length === 0 && (
-              <div className="text-xs text-gray-600">No rooms selected in Step 2.</div>
+              <div className="text-xs text-gray-600">
+                No rooms selected in Step 2.
+              </div>
             )}
             {selectedRooms.map((r) => {
               const count = roomCounts[r.id] ?? 0;
