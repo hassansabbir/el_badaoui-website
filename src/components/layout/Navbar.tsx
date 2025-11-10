@@ -60,6 +60,12 @@ export default function Navbar() {
             >
               Login
             </Link>
+            <Link
+              href={"/profile"}
+              className="text-gray-700 hover:text-red-600 border px-3 py-2 ml-5 rounded-md text-sm font-medium transition-colors duration-200"
+            >
+              Md
+            </Link>
           </div>
 
           {/* Mobile menu button */}
